@@ -39,3 +39,17 @@ button:hover {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+#path-box {
+  margin-bottom: 1rem;
+  background-color: #eef4ed;
+  padding: 0.75rem 1rem;
+  border-left: 6px solid #00754b;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+}
+
+#path span::before {
+  content: "🌿 ";
+}

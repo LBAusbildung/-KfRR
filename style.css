@@ -1,7 +1,7 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #fdf6f0;
-  color: #333;
+  color: #d94848; /* Schriftfarbe rot */
   padding: 2rem;
 }
 
@@ -38,26 +38,6 @@ button:hover {
   margin-top: 2rem;
   font-size: 1.2rem;
   font-weight: bold;
-  background-color: #fff0f0;
-  padding: 1.5rem;
-  border-radius: 12px;
-  border-left: 4px solid #d94848;
-}
-
-#result-box a {
-  color: white;
-  background-color: #d94848;
-  padding: 0.75rem 1.2rem;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 1rem;
-  font-weight: bold;
-  transition: 0.2s;
-}
-
-#result-box a:hover {
-  background-color: #b73434;
 }
 
 #path-box {
@@ -71,6 +51,6 @@ button:hover {
 }
 
 #path span::before {
-  content: "🍒 ";
+  content: "🔥 ";
 }
- 
+

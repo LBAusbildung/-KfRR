@@ -84,8 +84,7 @@ function showResult(text) {
   resultBox.innerHTML = `
     <p>${text}</p>
     <p><strong>Alle Infos & Anmeldung findest du hier:</strong></p>
-    <a href="https://hessenwiki.de/confluence/spaces/PUB/pages/1974767/Ausschreibungen+und+Anmeldungen" 
-       target="_blank" 
+    <a href="https://hessenwiki.de/confluence/spaces/PUB/pages/1974767/Ausschreibungen+und+Anmeldungen"_blank" 
        style="display:inline-block; margin-top:1rem; background:#00754b; color:white; padding:1rem 1.5rem; border-radius:12px; text-decoration:none;">
        🔗 Zur Ausschreibung im Hessenwiki
     </a>
@@ -93,3 +92,4 @@ function showResult(text) {
 }
 
 showQuestion(currentQuestion);
+
